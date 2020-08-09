@@ -1,20 +1,6 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Gilroy";
-  src: url("../fonts//Gilroy-Regular.eot");
-  src: local("☺"), url("../fonts//Gilroy-Regular.woff") format("woff"), url("../fonts//Gilroy-Regular.ttf") format("truetype"), url("../fonts//Gilroy-Regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Gilroy Extrabold";
-  src: url("../fonts//Gilroy-Extrabold.eot");
-  src: local("☺"), url("../fonts//Gilroy-Extrabold.woff") format("woff"), url("../fonts//Gilroy-Extrabold.ttf") format("truetype"), url("../fonts//Gilroy-Extrabold.svg") format("svg");
-  font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Gilroy";
   src: url("../fonts//Gilroy-Medium.eot");
   src: local("☺"), url("../fonts//Gilroy-Medium.woff") format("woff"), url("../fonts//Gilroy-Medium.ttf") format("truetype"), url("../fonts//Gilroy-Medium.svg") format("svg");
   font-weight: 500;
@@ -33,13 +19,6 @@
   src: local("☺"), url("../fonts//UniNeueHeavy-Italic.woff") format("woff"), url("../fonts//UniNeueHeavy-Italic.ttf") format("truetype"), url("../fonts//UniNeueHeavy-Italic.svg") format("svg");
   font-weight: 800;
   font-style: italic; }
-
-@font-face {
-  font-family: "UniNeueRegular";
-  src: url("../fonts//UniNeueRegular.eot");
-  src: local("☺"), url("../fonts//UniNeueRegular.woff") format("woff"), url("../fonts//UniNeueRegular.ttf") format("truetype"), url("../fonts//UniNeueRegular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 
 @font-face {
   font-family: "UniNeueBook";
@@ -256,7 +235,7 @@ body {
       text-align: center; } }
   .about__title {
     margin: 60px 0px 0px 0px;
-    font-size: 60px;
+    font-size: 52px;
     font-weight: 800;
     line-height: 60px;
     font-style: italic; }
@@ -286,7 +265,7 @@ body {
     margin: 32px 0px 0px 0px;
     font-family: "UniNeueBook";
     font-style: italic;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 35px; }
     @media (max-width: 1366px) {
@@ -296,8 +275,8 @@ body {
     @media (max-width: 1200px) {
       .about__text {
         margin: 15px 0px 0px 0px;
-        font-size: 15px;
-        line-height: 30px; } }
+        font-size: 13px;
+        line-height: 24px; } }
     @media (max-width: 960px) {
       .about__text {
         text-align: center;
@@ -418,7 +397,7 @@ body {
   background-color: #ffffff; }
   @media (max-width: 960px) {
     .modal-content {
-      width: 50vw;
+      width: 60vw;
       height: 100vh;
       border-radius: 0;
       margin: 0; } }
@@ -458,10 +437,10 @@ body {
 
 .content {
   padding: 65px 60px; }
-  @media (max-width: 420px) {
+  @media (max-width: 960px) {
     .content {
-      padding: 40px 40px; } }
-  @media (max-width: 375px) {
+      padding: 45px 40px; } }
+  @media (max-width: 480px) {
     .content {
       padding: 35px 30px; } }
   @media (max-width: 320px) {
@@ -490,6 +469,9 @@ body {
     position: relative;
     top: 3px;
     left: 20px; }
+  @media (max-width: 960px) {
+    .form__btn {
+      width: 260px; } }
 
 .form-input {
   margin: 20px 0px 30px 0px; }
@@ -520,19 +502,3 @@ body {
 
 .form-input-box p {
   margin: 0px 0px 0px 26px; }
-
-.footer {
-  height: 100%;
-  background: #dedede;
-  padding: 10px 0; }
-  .footer p {
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -ms-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    text-align: center;
-    color: #9a9999; }
-    .footer p:hover {
-      color: #201f1f; }
