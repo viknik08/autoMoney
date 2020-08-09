@@ -436,6 +436,7 @@ body {
       color: #6a6a6a; }
 
 .content {
+  position: relative;
   padding: 65px 60px; }
   @media (max-width: 960px) {
     .content {
@@ -446,6 +447,30 @@ body {
   @media (max-width: 320px) {
     .content {
       padding: 20px 20px; } }
+
+.cont1 {
+  position: absolute;
+  width: 300px;
+  height: 557px;
+  margin: 5% auto;
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-transform: translate(45px, -60px);
+  -ms-transform: translate(45px, -60px);
+  transform: translate(45px, -60px);
+  opacity: 0.4; }
+
+.cont2 {
+  position: absolute;
+  width: 350px;
+  height: 557px;
+  margin: 5% auto;
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-transform: translate(20px, -40px);
+  -ms-transform: translate(20px, -40px);
+  transform: translate(20px, -40px);
+  opacity: 0.8; }
 
 .form__btn {
   width: 280px;
