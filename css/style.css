@@ -459,6 +459,9 @@ body {
   -ms-transform: translate(45px, -60px);
   transform: translate(45px, -60px);
   opacity: 0.4; }
+  @media (max-width: 960px) {
+    .cont1 {
+      display: none; } }
 
 .cont2 {
   position: absolute;
@@ -471,6 +474,9 @@ body {
   -ms-transform: translate(20px, -40px);
   transform: translate(20px, -40px);
   opacity: 0.8; }
+  @media (max-width: 960px) {
+    .cont2 {
+      display: none; } }
 
 .form__btn {
   width: 280px;
