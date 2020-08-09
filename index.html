@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>AutoMoney</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="block">
+			<div class="sidebar">
+				<div class="sidebar__hight hight">
+					<div class="hight__logo"><img src="../img/logo.png" alt="" /></div>
+				</div>
+				<div class="sidebar__low low">
+					<div class="low__phone">
+						<a href="#"> <img src="../img/icons/phone.png" alt="" /></a>
+					</div>
+					<div class="low__vk">
+						<a href="#"> <img src="../img/icons/vk.png" alt="" /></a>
+					</div>
+					<div class="low__insta">
+						<a href="#"> <img src="../img/icons/insta.png" alt="" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="about-img">
+				<div class="about">
+					<div class="about__logo"><img src="../img/logo-large.png" alt="" /></div>
+					<div class="about__title">Займы за 30 минут
+						под залог ПТС</div>
+					<div class="about__text">
+						<p> Честная ставка 4,2% в месяц, без переплат и ожидания</p>
+						<p>Деньги сразу, на карту!</p>
+					</div>
+					<div class="about__btn">
+						<input id="open" type="button" value="Оставить заявку">
+					</div>
+				</div>
+				<div class="image">
+					<img src="../img/auto2.png" alt="" />
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div id="modal" class="modal">
+
+		<div class="modal-content">
+			<div class="content ">
+				<div class="header">
+					<div class="header__title">
+						<p>Заявка на обратный звонок</p>
+					</div>
+					<div id="close" class="header__close">&times;</div>
+				</div>
+				<form action="js/send.php" method="POST" class="modal-form">
+					<div class="form-input">
+						<img src="../img/icons/user.png" alt="" />
+						<input autocomplete="off" type="text" name="name" placeholder="Ваше имя" class="input" required />
+					</div>
+					<div class="form-input">
+						<img src="../img/icons/phoneSm.png" alt="" />
+						<input autocomplete="off" type="tel" name="phone" placeholder="Телефон" class="input req email"
+							required />
+					</div>
+					<div class="form-input">
+						<img src="../img/icons/menu.png" alt="" />
+						<input autocomplete="off" type="text" name="text" placeholder="Что вас интересует"
+							class="input req" />
+					</div>
+					<div class="form-button">
+						<button class="form__btn btn fw" type="submit"><span>Отправить заявку</span> </button>
+					</div>
+					<div class="form-input-box">
+						<input autocomplete="off" type="checkbox" data-value="" class="checkbox-one" />
+						<span>Я ознакомлен с политикой <p>конфиденциальности и принимаю её</p> </span>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+
+</html>
